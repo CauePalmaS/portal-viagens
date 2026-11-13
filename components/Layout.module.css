@@ -1,0 +1,48 @@
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #0f2942;
+  color: white;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #38bdf8;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  background-color: #0f2942;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
